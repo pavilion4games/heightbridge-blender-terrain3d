@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Build output (release zips are published as GitHub Release assets)
+dist/
+*.zip
+
+# Test exports
+*.exr
+*.r16
+
+# Local AI tooling
+.claude/
+CLAUDE.md
+claude.md
+claude.json
+.claude.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

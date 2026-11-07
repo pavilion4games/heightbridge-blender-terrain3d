@@ -1,0 +1,24 @@
+schema_version = "1.0.0"
+
+id = "terrain3d_heightmap_exporter"
+version = "1.0.0"
+name = "Terrain3D Heightmap Exporter"
+tagline = "Export mesh terrain as a heightmap for Godot Terrain3D"
+maintainer = "pavilion4games"
+type = "add-on"
+website = "https://github.com/pavilion4games/heightbridge-blender-terrain3d"
+
+tags = ["Import-Export", "Mesh"]
+
+blender_version_min = "5.0.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Write heightmap (EXR/R16) and metadata files to disk"
+
+[build]
+paths_exclude_pattern = [
+  "__pycache__/",
+  "/.*",
+]
